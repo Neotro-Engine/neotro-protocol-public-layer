@@ -89,7 +89,7 @@ Zenodo, GitHub public files, or public citations do not grant commercial integra
 
 ## Contact
 
-For license review, internal evaluation, PoC, commercial integration, or certified use, contact the official Neotro Protocol channel through the official contact channel listed in CONTACT.md.
+For license review, internal evaluation, PoC, commercial integration, or certified use, contact the official Neotro Protocol channel listed in CONTACT.md.
 
 
 ---
