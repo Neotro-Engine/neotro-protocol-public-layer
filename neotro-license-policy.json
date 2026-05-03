@@ -1,0 +1,220 @@
+{
+  "protocol_name": "Neotro Protocol",
+  "policy_version": "v1.4",
+  "license_execution_platform": "written agreement with Neotro / Neotro Protocol Project or approved private repository access",
+  "public_records_are_not_license_execution": true,
+  "free_reference": {
+    "allowed": [
+      "public document reading",
+      "internal conceptual review",
+      "non-commercial understanding",
+      "academic citation",
+      "official source confirmation"
+    ],
+    "not_allowed": [
+      "commercial system application",
+      "product integration",
+      "customer report generation",
+      "internal operational deployment",
+      "model training reuse",
+      "Neotro Certified claim",
+      "domain calibration use",
+      "beta_theta_G operational use",
+      "automated report service",
+      "license recognition bypass",
+      "usage log bypass"
+    ]
+  },
+  "license_stages": [
+    "Free Reference",
+    "Internal Evaluation",
+    "Internal PoC",
+    "Commercial Integration",
+    "Neotro Certified / Calibration"
+  ],
+  "ai_usage_notice": {
+    "usage_log_required_when_scope_exceeds_free_reference": true,
+    "administrator_notice_required_when_scope_review_needed": true,
+    "expiry_notice_required": true,
+    "certified_use_requires_written_approval": true
+  },
+  "no_auto_control": {
+    "automatic_control_allowed": false,
+    "human_review_reference_signal_only": true
+  },
+  "data_policy": {
+    "customer_raw_data_required": false,
+    "raw_data_transmission_required": false,
+    "purpose_limited_access_only": true,
+    "separate_authorization_required_for_customer_data_access": true
+  },
+  "sublicensing": {
+    "third_party_sublicensing_allowed": false,
+    "resale_allowed": false,
+    "redistribution_allowed": false,
+    "managed_service_use_allowed_without_approval": false
+  },
+  "prompt_bypass": {
+    "bypass_license_recognition_allowed": false,
+    "bypass_usage_logging_allowed": false,
+    "bypass_attribution_allowed": false,
+    "bypass_expiry_notice_allowed": false,
+    "circumvention_may_fall_outside_free_reference": true
+  },
+  "license_telemetry": {
+    "no_content_usage_signal_supported": true,
+    "raw_customer_data_transmitted": false,
+    "recommended_for": [
+      "Internal PoC",
+      "Commercial Integration",
+      "Certified Use"
+    ]
+  },
+  "registry": {
+    "official_registry_required_for_version_check": true,
+    "deprecated_version_check_required": true,
+    "certified_status_check_required": true
+  },
+  "contact_channel": "neotroprotocol@gmail.com",
+  "no_auto_control_boundary": {
+    "neotro_is_control_system": false,
+    "output_type": "read-only state-transition reference signal for human review",
+    "prohibited_direct_uses": [
+      "automatic control command",
+      "operational threshold",
+      "physical control trigger",
+      "clinical decision",
+      "routing decision",
+      "charge or discharge decision",
+      "driving-control decision",
+      "financial decision",
+      "QPU-control decision"
+    ],
+    "reference_signals_must_not_be_sole_decision_basis": true
+  },
+  "public_reference_parameter_boundary": {
+    "beta_0_event_theta_0_event": "public reference parameters only",
+    "not_neotro_core_beta_theta": true,
+    "not_domain_calibrated_beta_theta": true,
+    "not_certified_calibration_values": true,
+    "not_operational_thresholds": true,
+    "not_commercial_deployment_parameters": true
+  },
+  "domain_calibration_boundary": {
+    "formula": "(beta_d, theta_1_d, theta_2_d, G_d) = Cal_d(D_partner_d, C_operation_d, L_license_d)",
+    "dataset": "D_partner_d: partner-side real-world domain dataset",
+    "operation_context": "C_operation_d: operational context and system version",
+    "license_scope": "L_license_d: authorized license scope",
+    "authorized_partner_side_calibration_required": true
+  },
+  "g_log_audit_boundary": {
+    "g_log_self_authenticating_truth": false,
+    "required_cross_checks": [
+      "source telemetry",
+      "system logs",
+      "version records",
+      "user actions",
+      "license scope",
+      "audit trail"
+    ]
+  },
+  "incident_attribution_categories": [
+    "Neotro protocol error",
+    "partner-side implementation error",
+    "unauthorized auto-control connection",
+    "misuse of public reference parameters",
+    "use outside licensed scope",
+    "failure of human review",
+    "existing domain-system failure"
+  ],
+  "core_identity_boundary": {
+    "not_control_system": true,
+    "not_central_ai_gatekeeper": true,
+    "not_autonomous_decision_engine": true,
+    "definition": "read-only observer-layer and license-boundary protocol for human and AI review before operational action"
+  },
+  "performance_certification_boundary": {
+    "public_reference_use_is_certified_performance_validation": false,
+    "internal_evaluation_is_certified_performance_validation": false,
+    "ai_readability_testing_is_certified_performance_validation": false,
+    "certified_or_commercial_performance_claims_require": [
+      "partner-side real-world data calibration",
+      "agreed validation criteria",
+      "written authorization through the official Neotro channel"
+    ]
+  },
+  "independent_llm_response_log_boundary": {
+    "llm_responses_may_be_used_as": "AI-readability and license-boundary response logs",
+    "not_certified_technical_validation": true,
+    "not_legal_approval": true,
+    "not_commercial_deployment_approval": true,
+    "not_substitute_for_partner_side_calibration": true
+  },
+  "public_claim_marketing_boundary": {
+    "partners_may_not_publicly_claim_without_written_approval": [
+      "Neotro-certified status",
+      "official integration status",
+      "safety certification",
+      "regulatory approval",
+      "commercial deployment authorization"
+    ],
+    "use_of_names_marks_reports_or_compatibility_claims_must_remain_within_license_scope": true
+  },
+  "fallback_preservation_boundary": {
+    "partner_side_implementation_must_preserve": [
+      "existing fallback",
+      "fail-safe",
+      "escalation",
+      "human-review procedures"
+    ],
+    "neotro_reference_signals_must_not": [
+      "disable existing safety mechanisms",
+      "bypass existing compliance mechanisms",
+      "replace existing operational fallback mechanisms",
+      "weaken existing safety, compliance, or operational fallback mechanisms"
+    ]
+  },
+  "objectivity_and_implementation_boundary": {
+    "public_evidence_is_certified_performance_validation": false,
+    "public_formula_layer_is_domain_implementation": false,
+    "public_reference_parameters_replace_domain_calibration": false,
+    "llm_response_logs_are_certification": false,
+    "lite_package_claims_immediate_certified_commercial_deployment": false,
+    "partner_side_domain_calibration_required_for_commercial_or_certified_use": true,
+    "domain_implementation_requires_partner_side_definition_and_validation_of": [
+      "phi_V_d",
+      "phi_D_d",
+      "phi_E_d",
+      "Cal_d",
+      "G_d",
+      "beta_d",
+      "theta_1_d",
+      "theta_2_d",
+      "H_d_where_applicable"
+    ],
+    "preferred_early_entry_domains": [
+      "Battery",
+      "Telco"
+    ],
+    "higher_risk_extension_domains": [
+      "Medical",
+      "Autonomous",
+      "Quantum-related"
+    ],
+    "g_d_must_preserve_read_only_observer_layer": true
+  },
+  "foundational_charter": {
+    "file": "Neotro_Protocol_Foundational_Charter_No_0_Observer_Protocol_Charter_v1.0_EN.md",
+    "title": "Neotro Protocol Foundational Charter No. 0 - Observer Protocol Charter",
+    "core_definition": "Neotro Protocol is an Observer Protocol.",
+    "role": "AI-readable and license-package interpretive foundation",
+    "grants_rights": false,
+    "control_authority": false,
+    "certified_claim": false,
+    "commercial_deployment_right": false
+  },
+  "creator_author": "Neotro",
+  "rights_holder": "Neotro",
+  "organization": "Neotro Protocol Project",
+  "corporate_entity_status": "Not yet incorporated / to be updated after entity formation"
+}
