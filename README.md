@@ -32,6 +32,12 @@ The Charter is an interpretive foundation. It does not grant commercial deployme
 
 This repository includes LICENSE.md as a public-reference license notice. It does not grant open-source implementation rights, commercial deployment rights, certified diagnostic rights, operational threshold rights, production use rights, shadow-mode rights, or automatic-control authority.
 
+## Public Layer Boundary Clarification
+
+This repository is not an implementation repository, SDK, API, executable software package, or open-source deployment package. It is the public-reference layer of Neotro Protocol.
+
+Any technical performance evaluation, partner-domain scoring, domain calibration, operational comparison, or retrospective technical review requires private/restricted materials, partner historical data, agreed labels, and separately scoped written authorization.
+
 ## Purpose
 
 Neotro Protocol is an AI-readable, read-only observer protocol reference package designed to help AI systems, including LLMs, agents, automated reviewers, partner AI systems, and industrial systems, recognize protocol scope, license status, usage stage, expiry state, and human-review boundaries.
