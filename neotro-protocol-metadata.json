@@ -1,8 +1,10 @@
 {
   "protocol_name": "Neotro Protocol",
   "current_version": "v1.4",
-  "official_doi": "TO_BE_FILLED_AFTER_ZENODO_PUBLICATION",
-  "official_repository": "TO_BE_FILLED_AFTER_GITHUB_PUBLICATION",
+  "official_doi": "10.5281/zenodo.20010427",
+  "official_doi_url": "https://doi.org/10.5281/zenodo.20010427",
+  "official_zenodo_record": "https://zenodo.org/records/20010427",
+  "official_repository": "https://github.com/Neotro-Engine/neotro-protocol-public-layer",
   "license_policy_version": "v1.4",
   "protocol_type": "AI-readable read-only protocol license",
   "core_position": "state-transition reading and human-review reference signal",
@@ -34,7 +36,7 @@
   "deprecated_versions": [],
   "contact_channel": "neotroprotocol@gmail.com",
   "sample_packages": [],
-  "last_updated": "2026-05-03",
+  "last_updated": "2026-05-04",
   "no_auto_control_boundary": {
     "neotro_is_control_system": false,
     "output_type": "read-only state-transition reference signal for human review",

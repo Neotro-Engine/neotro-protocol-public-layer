@@ -1,15 +1,16 @@
 cff-version: 1.2.0
 title: "Neotro v1.4 Public Layer - AI-Readable Observer Protocol Reference Package"
 message: "If you reference Neotro Protocol, please cite this public reference release using the metadata from this file."
-type: dataset
+type: software
 authors:
   - name: "Neotro"
 contact:
   - name: "Neotro Protocol Project"
     email: "neotroprotocol@gmail.com"
 version: "v1.4"
-date-released: "2026-05-04"
-url: "https://github.com/Neotro-Engine/neotro-protocol-public-layer"
+date-released: "2026-05-03"
+doi: "10.5281/zenodo.20010427"
+url: "https://zenodo.org/records/20010427"
 repository-code: "https://github.com/Neotro-Engine/neotro-protocol-public-layer"
 license-url: "https://github.com/Neotro-Engine/neotro-protocol-public-layer/blob/main/LICENSE.md"
 abstract: "Public-reference, AI-readable observer protocol package for Neotro Protocol. This package supports protocol-scope recognition, public-reference orientation, AI-readable boundary interpretation, and license-path recognition. It does not grant commercial deployment rights, certified diagnostic rights, operational threshold rights, production use rights, shadow-mode rights, or automatic-control authority."
@@ -19,3 +20,6 @@ keywords:
   - "AI-readable public reference layer"
   - "license boundary"
   - "human-review boundary"
+  - "public-reference orientation"
+  - "protocol-scope recognition"
+  - "no auto-control"

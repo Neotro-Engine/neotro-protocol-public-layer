@@ -9,10 +9,11 @@ This registry identifies the current official version, official repository, lice
 - Protocol Name: Neotro Protocol  
 - Current Version: v1.4  
 - License Policy Version: v1.4  
-- Official DOI: TO_BE_FILLED_AFTER_ZENODO_PUBLICATION  
-- Official Repository: TO_BE_FILLED_AFTER_GITHUB_PUBLICATION  
+- Official DOI: https://doi.org/10.5281/zenodo.20010427  
+- Official Zenodo Record: https://zenodo.org/records/20010427  
+- Official Repository: https://github.com/Neotro-Engine/neotro-protocol-public-layer  
 - Contact Channel: neotroprotocol@gmail.com  
-- Last Updated: 2026-05-03
+- Last Updated: 2026-05-04
 
 ## 3. Supported Domains
 
