@@ -36,6 +36,8 @@ This repository includes LICENSE.md as a public-reference license notice. It doe
 
 This repository is not an implementation repository, SDK, API, executable software package, or open-source deployment package. It is the public-reference layer of Neotro Protocol.
 
+Neotro Protocol is not a detection method, anomaly-detection algorithm, or control method. It is an observer-position protocol for interpreting transition states, review boundaries, and responsibility boundaries after signals, model outputs, or system outputs already exist.
+
 Any technical performance evaluation, partner-domain scoring, domain calibration, operational comparison, or retrospective technical review requires private/restricted materials, partner historical data, agreed labels, and separately scoped written authorization.
 
 ## Purpose
