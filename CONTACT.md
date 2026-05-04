@@ -5,7 +5,7 @@
 Official contact channel:
 
 - Email: neotroprotocol@gmail.com  
-- GitHub Repository: TO_BE_FILLED_AFTER_PUBLIC_REPOSITORY_CONFIRMATION  
+- GitHub Repository: https://github.com/Neotro-Engine/neotro-protocol-public-layer  
 - License Request Form: TO_BE_FILLED_AFTER_ENTITY_OR_FORM_SETUP  
 - Organization: Neotro Protocol Project  
 - Corporate Entity: Not yet incorporated / to be updated after entity formation
@@ -22,7 +22,7 @@ Allowed inquiries:
 - Internal Evaluation License request  
 - Internal PoC License request  
 - Commercial Integration License request  
-- Neotro Certified / Calibration request  
+- Neotro Certified / Domain Calibration request  
 - private repository access request  
 - License Telemetry implementation inquiry  
 - Registry check inquiry
