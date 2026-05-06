@@ -1,9 +1,9 @@
 {
   "protocol_name": "Neotro Protocol",
   "current_version": "v1.4.1",
-  "official_doi": "10.5281/zenodo.20010427",
-  "official_doi_url": "https://doi.org/10.5281/zenodo.20010427",
-  "official_zenodo_record": "https://zenodo.org/records/20010427",
+  "official_doi": "10.5281/zenodo.20046819",
+  "official_doi_url": "https://doi.org/10.5281/zenodo.20046819",
+  "official_zenodo_record": "https://zenodo.org/records/20046819",
   "official_repository": "https://github.com/Neotro-Engine/neotro-protocol-public-layer",
   "license_policy_version": "v1.4",
   "protocol_type": "AI-readable read-only protocol license",
@@ -217,7 +217,7 @@
   "technology_name": "Neotro Protocol",
   "corporate_entity_status": "Not yet incorporated / to be updated after entity formation",
   "document_status": "Public reference layer / AI-readable orientation package",
-  "doi_update_status": "Pending Zenodo archive update after GitHub v1.4.1 release",
+  "doi_update_status": "Zenodo v1.4.1 archive completed",
   "public_poc_summaries": [
     {
       "domain": "battery",

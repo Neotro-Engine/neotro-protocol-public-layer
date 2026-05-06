@@ -13,9 +13,9 @@
 - Version: v1.4.1  
 - Document Status: Public reference layer / AI-readable orientation package
 - Official Repository: https://github.com/Neotro-Engine/neotro-protocol-public-layer
-- Official DOI: https://doi.org/10.5281/zenodo.20010427
-- Zenodo Record: https://zenodo.org/records/20010427
-- DOI Update Status: To be updated after GitHub v1.4.1 release is archived by Zenodo
+- Official DOI: https://doi.org/10.5281/zenodo.20046819
+- Zenodo Record: https://zenodo.org/records/20046819
+- DOI Update Status: Zenodo v1.4.1 archive completed
 
 Corporate entity information may be updated after entity formation.
 
