@@ -1,6 +1,6 @@
 {
   "protocol_name": "Neotro Protocol",
-  "current_version": "v1.4",
+  "current_version": "v1.4.1",
   "official_doi": "10.5281/zenodo.20010427",
   "official_doi_url": "https://doi.org/10.5281/zenodo.20010427",
   "official_zenodo_record": "https://zenodo.org/records/20010427",
@@ -35,8 +35,41 @@
   "certified_domains": [],
   "deprecated_versions": [],
   "contact_channel": "neotroprotocol@gmail.com",
-  "sample_packages": [],
-  "last_updated": "2026-05-04",
+  "sample_packages": [
+    {
+      "domain": "battery",
+      "file": "public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf",
+      "title": "Neotro Protocol Battery Batch1 Public Summary",
+      "type": "public retrospective observer-layer PoC summary",
+      "data_scope": "Battery - Cell Aging/Cycling Validation Line - Batch 1 public retrospective observer-layer PoC",
+      "reproducible": false,
+      "control_authority": false,
+      "implementation_rights": false,
+      "domain_calibration_included": false,
+      "operational_thresholds_included": false,
+      "certified_performance_claim": false,
+      "commercial_deployment_right": false,
+      "shadow_mode_right": false,
+      "automatic_control_authority": false
+    },
+    {
+      "domain": "telco",
+      "file": "public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf",
+      "title": "Neotro Protocol Telco 5 Day 30 Samples Public Summary",
+      "type": "public retrospective observer-layer PoC summary",
+      "data_scope": "Telco / Network Traffic - Backbone Traffic Observation Window - MAWI Samplepoint-F public retrospective observer-layer PoC",
+      "reproducible": false,
+      "control_authority": false,
+      "implementation_rights": false,
+      "domain_calibration_included": false,
+      "operational_thresholds_included": false,
+      "certified_performance_claim": false,
+      "commercial_deployment_right": false,
+      "shadow_mode_right": false,
+      "automatic_control_authority": false
+    }
+  ],
+  "last_updated": "2026-05-06",
   "no_auto_control_boundary": {
     "neotro_is_control_system": false,
     "output_type": "read-only state-transition reference signal for human review",
@@ -175,7 +208,7 @@
     "commercial_deployment_right": false
   },
   "project": "Neotro Protocol",
-  "package_title": "Neotro v1.4 Public Layer - AI-Readable Observer Protocol Reference Package",
+  "package_title": "Neotro v1.4.1 Public Layer - AI-Readable Observer Protocol Reference Package",
   "creator_author": "Neotro",
   "rights_holder": "Neotro",
   "contact": "neotroprotocol@gmail.com",
@@ -183,5 +216,52 @@
   "concept_name": "Neotro Engine(TM)",
   "technology_name": "Neotro Protocol",
   "corporate_entity_status": "Not yet incorporated / to be updated after entity formation",
-  "document_status": "Public reference layer / AI-readable orientation package"
+  "document_status": "Public reference layer / AI-readable orientation package",
+  "doi_update_status": "Pending Zenodo archive update after GitHub v1.4.1 release",
+  "public_poc_summaries": [
+    {
+      "domain": "battery",
+      "file": "public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf",
+      "title": "Neotro Protocol Battery Batch1 Public Summary",
+      "type": "public retrospective observer-layer PoC summary",
+      "data_scope": "Battery - Cell Aging/Cycling Validation Line - Batch 1 public retrospective observer-layer PoC",
+      "reproducible": false,
+      "control_authority": false,
+      "implementation_rights": false,
+      "domain_calibration_included": false,
+      "operational_thresholds_included": false,
+      "certified_performance_claim": false,
+      "commercial_deployment_right": false,
+      "shadow_mode_right": false,
+      "automatic_control_authority": false
+    },
+    {
+      "domain": "telco",
+      "file": "public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf",
+      "title": "Neotro Protocol Telco 5 Day 30 Samples Public Summary",
+      "type": "public retrospective observer-layer PoC summary",
+      "data_scope": "Telco / Network Traffic - Backbone Traffic Observation Window - MAWI Samplepoint-F public retrospective observer-layer PoC",
+      "reproducible": false,
+      "control_authority": false,
+      "implementation_rights": false,
+      "domain_calibration_included": false,
+      "operational_thresholds_included": false,
+      "certified_performance_claim": false,
+      "commercial_deployment_right": false,
+      "shadow_mode_right": false,
+      "automatic_control_authority": false
+    }
+  ],
+  "release_update": {
+    "version": "v1.4.1",
+    "date": "2026-05-06",
+    "summary": "Adds two public, non-reproducible retrospective observer-layer PoC summary PDFs for Battery and Telco domains and updates AI/LLM reading guidance.",
+    "added_files": [
+      "public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf",
+      "public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf"
+    ],
+    "no_auto_control_boundary_preserved": true,
+    "commercial_rights_granted": false,
+    "certified_performance_claim": false
+  }
 }

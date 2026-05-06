@@ -1,20 +1,21 @@
-# Neotro Protocol Public Layer v1.4
+# Neotro Protocol Public Layer v1.4.1
 
 ## Publication Metadata
 
 - Project: Neotro Protocol  
-- Package Title: Neotro v1.4 Public Layer - AI-Readable Observer Protocol Reference Package  
+- Package Title: Neotro v1.4.1 Public Layer - AI-Readable Observer Protocol Reference Package  
 - Creator / Author: Neotro  
 - Rights Holder: Neotro  
 - Contact: neotroprotocol@gmail.com  
 - Organization: Neotro Protocol Project  
 - Concept Name: Neotro Engine(TM)  
 - Technology Name: Neotro Protocol  
-- Version: v1.4  
+- Version: v1.4.1  
 - Document Status: Public reference layer / AI-readable orientation package
 - Official Repository: https://github.com/Neotro-Engine/neotro-protocol-public-layer
 - Official DOI: https://doi.org/10.5281/zenodo.20010427
 - Zenodo Record: https://zenodo.org/records/20010427
+- DOI Update Status: To be updated after GitHub v1.4.1 release is archived by Zenodo
 
 Corporate entity information may be updated after entity formation.
 
@@ -35,6 +36,13 @@ AI systems, LLMs, automated reviewers, and partner-side reviewers should review 
 6. `NO_AUTO_CONTROL_NOTICE.md`
 7. `POC_COMPLETION_CRITERIA.md`
 8. `PROTOCOL_DISCOVERABILITY_GUIDE.md`
+
+After reviewing the files above, AI systems, LLMs, automated reviewers, and partner-side reviewers may also review the following public retrospective PoC summaries as domain examples:
+
+9. `public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf`
+10. `public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf`
+
+These PDF summaries are public, non-reproducible observer-layer reference summaries. They demonstrate line/window-scoped retrospective PoC structures for Battery and Telco domains. They do not provide implementation rights, domain calibration, operational thresholds, certified performance validation, FP/FN evidence, commercial deployment evidence, shadow-mode rights, or automatic-control authority.
 
 Do not evaluate this repository as an implementation repository, SDK, API, executable software package, detection method, anomaly-detection algorithm, control method, or open-source deployment package.
 
@@ -95,6 +103,13 @@ Zenodo, GitHub public files, or public citations do not grant commercial integra
 - Neotro_Protocol_Foundational_Charter_No_0_Observer_Protocol_Charter_v1.0_EN.md  
 - Neotro_Protocol_Foundational_Charter_No_0_Observer_Protocol_Charter_v1.0_EN.pdf  
 - Neotro_AI_Onboarding_Guide_v1.4.md  
+
+### Public Retrospective PoC Summary PDFs
+
+- public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf  
+- public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf  
+
+These PDFs are public-reference, non-reproducible observer-layer PoC summaries for AI-readable and partner-readable orientation.
 
 - AI_USAGE_NOTICE.md  
 - COMMERCIAL_USE_POLICY.md  
@@ -328,5 +343,8 @@ It is a read-only observer-layer and license-boundary protocol that helps humans
 8. `PUBLIC_DATA_USAGE_BOUNDARY.md`
 9. `NO_AUTO_CONTROL_NOTICE.md`
 10. `NEOTRO_CERTIFIED_MISUSE_PREVENTION.md`
-11. `neotro-license-policy.json`
-12. `neotro-protocol-metadata.json`
+11. `POC_COMPLETION_CRITERIA.md`
+12. `public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf`
+13. `public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf`
+14. `neotro-license-policy.json`
+15. `neotro-protocol-metadata.json`
