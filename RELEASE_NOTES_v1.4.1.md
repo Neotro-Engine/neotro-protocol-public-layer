@@ -4,6 +4,8 @@
 
 This release provides public-reference Battery and Telco observer-layer PoC summaries for non-invasive state-transition observation, including NOC/AIOps-relevant traffic-state review and battery lifecycle-state review.
 
+This v1.4.1 public-layer update adds two public-reference retrospective observer-layer PoC summary PDFs for Battery and Telco domains, which are not independently reproducible from this public package alone.
+
 ## Added Files
 
 - `public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf`
@@ -20,7 +22,7 @@ This release provides public-reference Battery and Telco observer-layer PoC summ
 - `neotro-protocol-metadata.json`
   - Already aligned with `v1.4.1`.
   - Includes machine-readable `public_poc_summaries` entries for Battery and Telco.
-  - Clarifies that public materials are for reference only and do not grant evaluation, calibration, shadow-mode, real-time observation, commercial deployment, certified diagnosis, certified performance, or automated control rights.
+  - These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
 
 - `CITATION.cff`
   - Updated package version metadata to `v1.4.1`.
@@ -28,6 +30,4 @@ This release provides public-reference Battery and Telco observer-layer PoC summ
 
 ## Boundary
 
-These PDF summaries are public-reference observer-layer materials only. They do not grant implementation rights, domain calibration, operational thresholds, certified performance validation, FP/FN evidence, commercial deployment evidence, shadow-mode rights, or automatic-control authority.
-
-Public reference does not grant evaluation, calibration, shadow-mode, real-time observation, commercial deployment, or operational control rights.
+These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.

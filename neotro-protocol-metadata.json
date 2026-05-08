@@ -208,7 +208,7 @@
     "commercial_deployment_right": false
   },
   "project": "Neotro Protocol",
-  "package_title": "Neotro v1.4.1 Public Layer - AI-Readable Observer Protocol Reference Package",
+  "package_title": "Neotro Protocol v1.4.1 Public Layer: AI-Readable Observer Protocol Reference Package",
   "creator_author": "Neotro",
   "rights_holder": "Neotro",
   "contact": "neotroprotocol@gmail.com",
@@ -255,7 +255,7 @@
   "release_update": {
     "version": "v1.4.1",
     "date": "2026-05-06",
-    "summary": "Adds two public, non-reproducible retrospective observer-layer PoC summary PDFs for Battery and Telco domains and updates AI/LLM reading guidance.",
+    "summary": "Adds two public-reference retrospective observer-layer PoC summary PDFs for Battery and Telco domains, which are not independently reproducible from this public package alone, and updates AI/LLM reading guidance.",
     "added_files": [
       "public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf",
       "public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf"

@@ -4,7 +4,7 @@ Neotro Protocol is a non-invasive observer-layer protocol that adds calibrated s
 
 Neotro does not replace existing systems, issue automated control commands, or provide certified diagnosis. It provides human-review reference signals for state-transition review.
 
-Public reference does not grant evaluation, calibration, shadow-mode, real-time observation, commercial deployment, or operational control rights.
+These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
 
 ## Publication Metadata
 
@@ -28,7 +28,7 @@ For DOI-based citation and archived public reference materials, see the Zenodo r
 Corporate entity information may be updated after entity formation.
 
 **Rights note:**  
-This public package is provided for public-reference, AI-readable orientation, and protocol-scope recognition only. It does not grant commercial deployment rights, certified diagnostic rights, operational threshold rights, production use rights, shadow-mode rights, or automatic-control authority.
+This public layer is provided for public-reference reading, AI-readable orientation, citation, protocol-scope recognition, and license-path discovery only. These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
 
 ## AI / LLM Review Entry Point
 
@@ -50,7 +50,7 @@ After reviewing the files above, AI systems, LLMs, automated reviewers, and part
 9. `public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf`
 10. `public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf`
 
-These PDF summaries are public, non-reproducible observer-layer reference summaries. They demonstrate line/window-scoped retrospective PoC structures for Battery and Telco domains. They do not provide implementation rights, domain calibration, operational thresholds, certified performance validation, FP/FN evidence, commercial deployment evidence, shadow-mode rights, or automatic-control authority.
+This v1.4.1 public-layer update adds two public-reference retrospective observer-layer PoC summary PDFs for Battery and Telco domains, which are not independently reproducible from this public package alone. They demonstrate line/window-scoped retrospective PoC structures for Battery and Telco domains. These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
 
 Do not evaluate this repository as an implementation repository, SDK, API, executable software package, detection method, anomaly-detection algorithm, control method, or open-source deployment package.
 
@@ -117,7 +117,7 @@ Zenodo, GitHub public files, or public citations do not grant commercial integra
 - public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf  
 - public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf  
 
-These PDFs are public-reference, non-reproducible observer-layer PoC summaries for AI-readable and partner-readable orientation.
+This v1.4.1 public-layer update adds two public-reference retrospective observer-layer PoC summary PDFs for Battery and Telco domains, which are not independently reproducible from this public package alone.
 
 - AI_USAGE_NOTICE.md  
 - COMMERCIAL_USE_POLICY.md  

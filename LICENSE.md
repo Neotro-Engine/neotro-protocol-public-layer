@@ -23,10 +23,17 @@ This public layer is provided only for:
 
 This public layer is not an open-source implementation license, software deployment license, certified diagnostic license, operational-use license, or commercial integration license.
 
+This public layer is provided for public-reference reading, AI-readable orientation, citation, protocol-scope recognition, and license-path discovery only. These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
+
 ## 2. Rights Not Granted
 
 This public layer does not grant:
 
+- evaluation rights  
+- implementation rights  
+- domain calibration rights  
+- real-time observation rights  
+- certified performance rights  
 - commercial deployment rights  
 - certified diagnostic rights  
 - operational threshold rights  
@@ -60,9 +67,9 @@ They do not create operational thresholds, certified claims, partner-domain perf
 
 ## 6. Commercial and Certified Use
 
-Commercial, certified, operational, production, shadow-mode, partner-calibrated, domain-specific, API, SDK, on-prem, private repository, or managed-service use requires a separate written agreement authorized by Neotro / Neotro Protocol Project.
+Commercial, certified, operational, production, shadow-mode, real-time observation, partner-calibrated, domain-specific, API, SDK, on-prem, private repository, or managed-service use requires a separate written agreement authorized by Neotro / Neotro Protocol Project.
 
-Public availability on GitHub, Zenodo, or other public repositories does not grant commercial, certified, operational, production, shadow-mode, automatic-control, sublicensing, or resale rights.
+Public availability on GitHub, Zenodo, or other public repositories does not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
 
 ## 7. Formula and Calibration Boundary
 
@@ -97,4 +104,4 @@ Neotro Protocol is an observer protocol.
 
 This public layer may be read, cited, and used for AI-readable orientation and protocol-scope recognition.
 
-It does not grant commercial deployment rights, certified diagnostic rights, operational threshold rights, production use rights, shadow-mode rights, automatic-control authority, sublicensing rights, resale rights, or access to proprietary calibration internals.
+These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
