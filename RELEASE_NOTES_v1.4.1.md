@@ -1,8 +1,8 @@
-# Neotro Protocol Public Layer v1.4.1 Release Notes
+# Neotro Protocol v1.4.1 Public Layer: AI-Readable Observer Protocol Reference Package — Release Notes
 
 ## Update Summary
 
-This update adds two public, non-reproducible retrospective observer-layer PoC summary PDFs for Battery and Telco domains.
+This release provides public-reference Battery and Telco observer-layer PoC summaries for non-invasive state-transition observation, including NOC/AIOps-relevant traffic-state review and battery lifecycle-state review.
 
 ## Added Files
 
@@ -12,19 +12,22 @@ This update adds two public, non-reproducible retrospective observer-layer PoC s
 ## Updated Files
 
 - `README.md`
+  - Added discovery-oriented core definition and boundary statements at the top of the README.
   - Added public PoC PDF guidance inside the AI / LLM Review Entry Point.
   - Added the `public-poc/` PDF files to Public Layer Files.
-  - Updated the Recommended AI Reading Order to include the Battery and Telco public PoC summaries after core boundary and PoC criteria files.
+  - Added DOI / Zenodo archive reference guidance.
 
 - `neotro-protocol-metadata.json`
-  - Updated `current_version` to `v1.4.1`.
-  - Added machine-readable `public_poc_summaries` entries for Battery and Telco.
-  - Preserved no-auto-control, no-certified-performance, no-commercial-deployment, and no-shadow-mode boundaries.
+  - Already aligned with `v1.4.1`.
+  - Includes machine-readable `public_poc_summaries` entries for Battery and Telco.
+  - Clarifies that public materials are for reference only and do not grant evaluation, calibration, shadow-mode, real-time observation, commercial deployment, certified diagnosis, certified performance, or automated control rights.
 
 - `CITATION.cff`
   - Updated package version metadata to `v1.4.1`.
-  - Existing DOI/Zenodo record should be updated after GitHub release archiving if a new Zenodo version DOI is issued.
+  - DOI, version, title, repository URL, author, date, and Zenodo record metadata are aligned with the v1.4.1 public archive.
 
 ## Boundary
 
 These PDF summaries are public-reference observer-layer materials only. They do not grant implementation rights, domain calibration, operational thresholds, certified performance validation, FP/FN evidence, commercial deployment evidence, shadow-mode rights, or automatic-control authority.
+
+Public reference does not grant evaluation, calibration, shadow-mode, real-time observation, commercial deployment, or operational control rights.

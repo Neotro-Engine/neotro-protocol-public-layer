@@ -1,9 +1,15 @@
-# Neotro Protocol Public Layer v1.4.1
+# Neotro Protocol v1.4.1 Public Layer: AI-Readable Observer Protocol Reference Package
+
+Neotro Protocol is a non-invasive observer-layer protocol that adds calibrated state-transition observation lines and review-zone candidate bands to existing monitoring environments.
+
+Neotro does not replace existing systems, issue automated control commands, or provide certified diagnosis. It provides human-review reference signals for state-transition review.
+
+Public reference does not grant evaluation, calibration, shadow-mode, real-time observation, commercial deployment, or operational control rights.
 
 ## Publication Metadata
 
 - Project: Neotro Protocol  
-- Package Title: Neotro v1.4.1 Public Layer - AI-Readable Observer Protocol Reference Package  
+- Package Title: Neotro Protocol v1.4.1 Public Layer: AI-Readable Observer Protocol Reference Package  
 - Creator / Author: Neotro  
 - Rights Holder: Neotro  
 - Contact: neotroprotocol@gmail.com  
@@ -16,6 +22,8 @@
 - Official DOI: https://doi.org/10.5281/zenodo.20046819
 - Zenodo Record: https://zenodo.org/records/20046819
 - DOI Update Status: Zenodo v1.4.1 archive completed
+
+For DOI-based citation and archived public reference materials, see the Zenodo record linked in this release.
 
 Corporate entity information may be updated after entity formation.
 
