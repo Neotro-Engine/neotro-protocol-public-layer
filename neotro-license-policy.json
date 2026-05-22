@@ -19,7 +19,7 @@
       "model training reuse",
       "Neotro Certified claim",
       "domain calibration use",
-      "beta_theta_G operational use",
+      "calibration_values_gain operational use",
       "automated report service",
       "license recognition bypass",
       "usage log bypass"
@@ -81,7 +81,7 @@
     "output_type": "read-only state-transition reference signal for human review",
     "prohibited_direct_uses": [
       "automatic control command",
-      "operational threshold",
+      "operational-use validation boundary",
       "physical control trigger",
       "clinical decision",
       "routing decision",
@@ -93,15 +93,15 @@
     "reference_signals_must_not_be_sole_decision_basis": true
   },
   "public_reference_parameter_boundary": {
-    "beta_0_event_theta_0_event": "public reference parameters only",
-    "not_neotro_core_beta_theta": true,
-    "not_domain_calibrated_beta_theta": true,
+    "calibration_value_0_event_review_boundary_0_event": "public reference parameters only",
+    "not_non_public_neotro_calibration_parameters": true,
+    "not_domain_calibrated_parameters": true,
     "not_certified_calibration_values": true,
-    "not_operational_thresholds": true,
+    "not_operational_use_validation_boundaries": true,
     "not_commercial_deployment_parameters": true
   },
   "domain_calibration_boundary": {
-    "formula": "(beta_d, theta_1_d, theta_2_d, G_d) = Cal_d(D_partner_d, C_operation_d, L_license_d)",
+    "formula": "non_public_domain_calibration_set = authorized_calibration_process(...)",
     "dataset": "D_partner_d: partner-side real-world domain dataset",
     "operation_context": "C_operation_d: operational context and system version",
     "license_scope": "L_license_d: authorized license scope",
@@ -186,10 +186,10 @@
       "phi_D_d",
       "phi_E_d",
       "Cal_d",
-      "G_d",
-      "beta_d",
-      "theta_1_d",
-      "theta_2_d",
+      "domain_gain_set",
+      "domain_reference_value",
+      "domain_review_boundary_1",
+      "domain_review_boundary_2",
       "H_d_where_applicable"
     ],
     "preferred_early_entry_domains": [

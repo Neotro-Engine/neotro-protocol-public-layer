@@ -14,7 +14,7 @@
 
 **Charter Function:**
 
-This Charter defines Neotro Protocol as an observer protocol positioned between industrial systems, AI-assisted judgment, and human review. It does not grant commercial deployment rights, certified diagnostic rights, operational threshold rights, or automatic-control authority.
+This Charter defines Neotro Protocol as an observer protocol positioned between industrial systems, AI-assisted judgment, and human review. It does not grant commercial deployment rights, certified diagnostic rights, operational-use validation rights, or automatic-control authority.
 
 # Preamble
 This Foundational Charter establishes the industrial position of Neotro Protocol. It is not a product brochure, a diagnostic claim, a control specification, or a commercial license grant. It is an interpretive charter that defines where Neotro Protocol stands: above domain-specific systems as a non-invasive observer protocol, and before operational action as a human-review boundary layer.
@@ -53,7 +53,7 @@ Neotro is not attached indiscriminately to an entire domain. It must be position
 - Who receives the output?
 - Is it connected to an existing control system, or kept outside any control path?
 - Could Neotro be misinterpreted as a cause of an incident if used outside its authorized scope?
-The same Neotro principle may be used in different ways: public or historical log review, pre-threshold human-review candidate detection, shadow-mode dashboarding, or real-time alert-review. Each mode requires different scope, responsibility, logging, authorization, and licensing boundaries.
+The same Neotro principle may be used in different ways: public or historical log review, pre-transition human-review candidate detection, shadow-mode dashboarding, or real-time alert-review. Each mode requires different scope, responsibility, logging, authorization, and licensing boundaries.
 
 # Article IV. Licensing Structure Principle
 Neotro commercial value does not arise from selling the entire technology at once. It arises from licensing an objectively defined observer position by domain, process, mode, window, output type, and integration boundary.
@@ -105,7 +105,7 @@ Once this position is fixed, the practical rules become aligned: why No Auto-Con
 # Article VIII. License Package Interpretation
 This Charter should be included in the Neotro license package and AI-readable public layer as an interpretive foundation. Its role is to prevent external AI systems, partner reviewers, and commercial stakeholders from misclassifying Neotro as a battery diagnostic engine, BMS replacement, safety controller, or autonomous-control technology.
 - This Charter may guide how license scope, mode, window, output, and responsibility boundaries are interpreted.
-- This Charter does not itself grant any commercial deployment right, certified diagnostic right, operational threshold right, production right, shadow-mode right, or automatic-control authority.
+- This Charter does not itself grant any commercial deployment right, certified diagnostic right, operational-use validation right, production right, shadow-mode right, or automatic-control authority.
 - If commercial, certified, operational, production, shadow-mode, or domain-calibrated use is desired, it must be governed by a separate written agreement.
 
 # Article IX. Final Definition
@@ -125,10 +125,10 @@ The following clauses preserve the observer-protocol position fixed by this Char
 | --- | --- |
 | No Auto-Control | Neotro outputs are human-review reference signals and must not directly trigger automatic control, shutdown, derating, actuator command, safety fallback, or operational enforcement unless separately authorized in writing. |
 | Non-Replacement | Neotro does not replace existing domain systems, safety systems, BMS, PHM, SOH/RUL, anomaly detection, medical systems, telecom systems, autonomous systems, or human expert review. |
-| Public Reference Boundary | Public-reference materials support orientation, calculation-flow rehearsal, and review-state language alignment. They do not create operational thresholds, certified claims, partner-domain performance validation, or commercial deployment rights. |
+| Public Reference Boundary | Public-reference materials support orientation, calculation-flow rehearsal, and review-state language alignment. They do not create operational-use validation boundaries, certified claims, partner-domain performance validation, or commercial deployment rights. |
 | License Scope Boundary | Authorized use must be limited by domain, process, mode, window, output type, integration boundary, and written scope. Use outside the authorized observation position is outside the licensed protocol boundary. |
 
-Interpretive Effect: These clauses do not create a commercial license grant, certified diagnostic authorization, operational threshold authorization, production deployment right, or automatic-control authority. They define the default boundary unless a separate written agreement states otherwise.
+Interpretive Effect: These clauses do not create a commercial license grant, certified diagnostic authorization, operational-use validation authorization, production deployment right, or automatic-control authority. They define the default boundary unless a separate written agreement states otherwise.
 
 # Closing Statement
 Neotro is not merely a solution. It is an observer protocol. Its value is not in directly changing industrial equipment or overriding existing systems. Its value is in reading state transitions between industrial systems and AI-assisted judgment, then revealing human-review positions and responsibility boundaries in an auditable form.

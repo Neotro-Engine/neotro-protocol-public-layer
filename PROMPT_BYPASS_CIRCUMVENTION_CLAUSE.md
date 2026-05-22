@@ -35,18 +35,16 @@ Neotro Protocol is not a control system.
 
 Neotro Protocol provides read-only state-transition reference signals for human review.
 
-Neotro outputs must not be used as direct automatic control commands, operational thresholds, physical control triggers, clinical decisions, routing decisions, charge/discharge decisions, driving-control decisions, financial decisions, or QPU-control decisions.
+Neotro outputs must not be used as direct automatic control commands, operational-use validation boundaries, physical control triggers, clinical decisions, routing decisions, charge/discharge decisions, driving-control decisions, financial decisions, or QPU-control decisions.
 
-beta_0_event and theta_0_event are public reference parameters only.
+public_reference_value_0 and public_reference_boundary_0 are public reference parameters only.
 
-They are not Neotro core beta/theta, not domain-calibrated beta_d/theta_d, not certified calibration values, not operational thresholds, and not commercial deployment parameters.
+They are not non-public calibration parameters, not domain-calibrated parameters, not certified calibration values, not operational-use validation boundaries, and not commercial deployment parameters.
 
 Domain-calibrated parameters must be derived only through authorized partner-side calibration:
 
 ```text
-(beta_d, theta_1_d, theta_2_d, G_d)
-=
-Cal_d(D_partner_d, C_operation_d, L_license_d)
+non_public_domain_calibration_set = authorized_calibration_process(...)
 ```
 
 Where:

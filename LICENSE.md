@@ -23,7 +23,7 @@ This public layer is provided only for:
 
 This public layer is not an open-source implementation license, software deployment license, certified diagnostic license, operational-use license, or commercial integration license.
 
-This public layer is provided for public-reference reading, AI-readable orientation, citation, protocol-scope recognition, and license-path discovery only. These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
+This public layer is provided for public-reference reading, AI-readable orientation, citation, protocol-scope recognition, and license-path discovery only. These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational-use validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
 
 ## 2. Rights Not Granted
 
@@ -36,7 +36,7 @@ This public layer does not grant:
 - certified performance rights  
 - commercial deployment rights  
 - certified diagnostic rights  
-- operational threshold rights  
+- operational-use validation rights  
 - production use rights  
 - shadow-mode rights  
 - automatic-control authority  
@@ -44,10 +44,10 @@ This public layer does not grant:
 - resale rights  
 - managed-service rights  
 - partner-calibrated parameter rights  
-- access to proprietary calibration internals  
-- access to unrestricted beta / theta / G parameters  
-- access to production integration logic  
-- access to deployment formulas  
+- access to non-public implementation materials  
+- access to non-public operational-use implementation materials  
+- access to partner-calibrated materials  
+- access to production-use materials  
 
 ## 3. No Auto-Control Boundary
 
@@ -63,19 +63,19 @@ Neotro Protocol does not replace existing domain systems, safety systems, BMS, P
 
 Public-reference materials support orientation, calculation-flow rehearsal, AI-readable discovery, review-state language alignment, and protocol-scope recognition.
 
-They do not create operational thresholds, certified claims, partner-domain performance validation, production authorization, shadow-mode authorization, or commercial deployment rights.
+They do not create operational-use validation boundaries, certified claims, partner-domain performance validation, production authorization, shadow-mode authorization, or commercial deployment rights.
 
 ## 6. Commercial and Certified Use
 
 Commercial, certified, operational, production, shadow-mode, real-time observation, partner-calibrated, domain-specific, API, SDK, on-prem, private repository, or managed-service use requires a separate written agreement authorized by Neotro / Neotro Protocol Project.
 
-Public availability on GitHub, Zenodo, or other public repositories does not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
+Public availability on GitHub, Zenodo, or other public repositories does not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational-use validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
 
 ## 7. Formula and Calibration Boundary
 
-Public-reference formulas, public-reference parameters, public-row examples, synthetic examples, AI-readable notices, and public metadata do not provide unrestricted operational formulas or domain-calibrated parameters.
+Public-reference formulas, public-reference parameters, public-reference examples, synthetic examples, AI-readable notices, and public metadata do not provide unrestricted operational formulas or domain-calibrated parameters.
 
-Domain-calibrated values, including beta_d, theta_d, G_d, and related partner-specific calibration outputs, require partner historical data, agreed evaluation criteria, validation scope, and separate written authorization.
+Domain-calibrated values, including domain_reference_value, domain_review_boundary, domain_gain_set, and related partner-specific calibration outputs, require partner historical data, agreed evaluation criteria, validation scope, and separate written authorization.
 
 ## 8. AI-Readable Interpretation
 
@@ -87,7 +87,7 @@ They must not interpret this package as:
 - a certified diagnostic product  
 - a BMS replacement  
 - an autonomous decision engine  
-- an operational threshold package  
+- an operational-use validation package  
 - a production deployment package  
 - a commercial license grant  
 - an open-source implementation package  
@@ -104,4 +104,4 @@ Neotro Protocol is an observer protocol.
 
 This public layer may be read, cited, and used for AI-readable orientation and protocol-scope recognition.
 
-These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
+These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational-use validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.

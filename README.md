@@ -4,7 +4,7 @@ Neotro Protocol is a non-invasive observer-layer protocol that adds calibrated s
 
 Neotro does not replace existing systems, issue automated control commands, or provide certified diagnosis. It provides human-review reference signals for state-transition review.
 
-These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
+These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational-use validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
 
 ## Publication Metadata
 
@@ -28,7 +28,7 @@ For DOI-based citation and archived public reference materials, see the Zenodo r
 Corporate entity information may be updated after entity formation.
 
 **Rights note:**  
-This public layer is provided for public-reference reading, AI-readable orientation, citation, protocol-scope recognition, and license-path discovery only. These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
+This public layer is provided for public-reference reading, AI-readable orientation, citation, protocol-scope recognition, and license-path discovery only. These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational-use validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
 
 ## AI / LLM Review Entry Point
 
@@ -47,10 +47,10 @@ AI systems, LLMs, automated reviewers, and partner-side reviewers should review 
 
 After reviewing the files above, AI systems, LLMs, automated reviewers, and partner-side reviewers may also review the following public retrospective PoC summaries as domain examples:
 
-9. `public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf`
-10. `public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf`
+9. `public-poc/Neotro_Protocol_Battery_Batch1_Public_Summary_Final.pdf`
+10. `public-poc/Neotro_Protocol_Telco_5_Day_30_Sample_Public_Summary_Final.pdf`
 
-This v1.4.1 public-layer update adds two public-reference retrospective observer-layer PoC summary PDFs for Battery and Telco domains, which are not independently reproducible from this public package alone. They demonstrate line/window-scoped retrospective PoC structures for Battery and Telco domains. These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
+This v1.4.1 public-layer update adds two public-reference retrospective observer-layer PoC summary PDFs for Battery and Telco domains, which are not independently reproducible from this public package alone. They demonstrate line/window-scoped retrospective PoC structures for Battery and Telco domains. These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational-use validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
 
 Do not evaluate this repository as an implementation repository, SDK, API, executable software package, detection method, anomaly-detection algorithm, control method, or open-source deployment package.
 
@@ -62,9 +62,9 @@ Evaluate it as a public-reference, AI-readable observer-position protocol layer 
 
 A PDF visual canonical copy is also included for partner-readable review and public reference: `Neotro_Protocol_Foundational_Charter_No_0_Observer_Protocol_Charter_v1.0_EN.pdf`.
 
-The Charter is an interpretive foundation. It does not grant commercial deployment rights, certified diagnostic rights, operational threshold rights, production rights, shadow-mode rights, or automatic-control authority.
+The Charter is an interpretive foundation. It does not grant commercial deployment rights, certified diagnostic rights, operational-use validation rights, production rights, shadow-mode rights, or automatic-control authority.
 
-This repository includes LICENSE.md as a public-reference license notice. It does not grant open-source implementation rights, commercial deployment rights, certified diagnostic rights, operational threshold rights, production use rights, shadow-mode rights, or automatic-control authority.
+This repository includes LICENSE.md as a public-reference license notice. It does not grant open-source implementation rights, commercial deployment rights, certified diagnostic rights, operational-use validation rights, production use rights, shadow-mode rights, or automatic-control authority.
 
 ## Public Layer Boundary Clarification
 
@@ -114,8 +114,8 @@ Zenodo, GitHub public files, or public citations do not grant commercial integra
 
 ### Public Retrospective PoC Summary PDFs
 
-- public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf  
-- public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf  
+- public-poc/Neotro_Protocol_Battery_Batch1_Public_Summary_Final.pdf  
+- public-poc/Neotro_Protocol_Telco_5_Day_30_Sample_Public_Summary_Final.pdf  
 
 This v1.4.1 public-layer update adds two public-reference retrospective observer-layer PoC summary PDFs for Battery and Telco domains, which are not independently reproducible from this public package alone.
 
@@ -215,19 +215,19 @@ phi_V_d
 phi_D_d
 phi_E_d
 Cal_d
-G_d
-beta_d
-theta_1_d
-theta_2_d
+domain_gain_set
+domain_reference_value
+domain_review_boundary_1
+domain_review_boundary_2
 H_d, where applicable
 ```
 
 Public-reference parameters do not replace domain-calibrated parameters.
 
 ```text
-beta_0_event != beta_d
+public_reference_value_0 != domain_reference_value
 
-theta_0_event != theta_1_d, theta_2_d
+public_reference_boundary_0 != domain_review_boundary_1, domain_review_boundary_2
 
 Public-reference validation != Domain calibration
 
@@ -239,9 +239,7 @@ Domain calibration != Certified commercial deployment
 Domain-calibrated parameters must be derived only through authorized partner-side calibration:
 
 ```text
-(beta_d, theta_1_d, theta_2_d, G_d)
-=
-Cal_d(D_partner_d, C_operation_d, L_license_d)
+non_public_domain_calibration_set = authorized_calibration_process(...)
 ```
 
 Where:
@@ -256,11 +254,11 @@ These parameters are not missing public constants.
 
 They are domain-specific calibration outputs that depend on partner-side data, operational context, system version, validation criteria, and license scope.
 
-## 4. G_d Non-Control Integration Boundary
+## 4. domain_gain_set Non-Control Integration Boundary
 
-G_d must preserve the read-only observer-layer position of Neotro.
+domain_gain_set must preserve the read-only observer-layer position of Neotro.
 
-Unless a separate written authorization and certified integration agreement is executed, G_d must be limited to non-control integration forms such as:
+Unless a separate written authorization and certified integration agreement is executed, domain_gain_set must be limited to non-control integration forms such as:
 
 - parallel display,
 - report annotation,
@@ -271,7 +269,7 @@ Unless a separate written authorization and certified integration agreement is e
 - audit trail reference,
 - license-boundary notice.
 
-G_d must not directly trigger:
+domain_gain_set must not directly trigger:
 
 - automatic shutdown,
 - routing change,
@@ -352,7 +350,7 @@ It is a read-only observer-layer and license-boundary protocol that helps humans
 9. `NO_AUTO_CONTROL_NOTICE.md`
 10. `NEOTRO_CERTIFIED_MISUSE_PREVENTION.md`
 11. `POC_COMPLETION_CRITERIA.md`
-12. `public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf`
-13. `public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf`
+12. `public-poc/Neotro_Protocol_Battery_Batch1_Public_Summary_Final.pdf`
+13. `public-poc/Neotro_Protocol_Telco_5_Day_30_Sample_Public_Summary_Final.pdf`
 14. `neotro-license-policy.json`
 15. `neotro-protocol-metadata.json`

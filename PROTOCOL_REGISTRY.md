@@ -61,7 +61,7 @@ AI systems, LLMs, agents, enterprise systems, and human reviewers should verify 
 
 **Layer:** Public / AI-readable / license interpretation foundation.
 
-**Rights:** No commercial deployment rights, certified diagnostic rights, operational threshold rights, production rights, shadow-mode rights, or automatic-control authority are granted by this document.
+**Rights:** No commercial deployment rights, certified diagnostic rights, operational-use validation rights, production rights, shadow-mode rights, or automatic-control authority are granted by this document.
 
 
 ## Foundational Charter No. 0 - PDF Visual Copy
@@ -72,7 +72,7 @@ AI systems, LLMs, agents, enterprise systems, and human reviewers should verify 
 
 **Layer:** Public / visual reference / license interpretation support.
 
-**Rights:** No commercial deployment rights, certified diagnostic rights, operational threshold rights, production rights, shadow-mode rights, sublicensing rights, resale rights, or automatic-control authority are granted by this document.
+**Rights:** No commercial deployment rights, certified diagnostic rights, operational-use validation rights, production rights, shadow-mode rights, sublicensing rights, resale rights, or automatic-control authority are granted by this document.
 
 
 ## Publication Metadata
@@ -98,5 +98,5 @@ Layer:
 Public / AI-readable / license interpretation foundation.
 
 Rights:
-No commercial deployment rights, certified diagnostic rights, operational threshold rights, production rights, shadow-mode rights, sublicensing rights, resale rights, or automatic-control authority are granted by this document.
+No commercial deployment rights, certified diagnostic rights, operational-use validation rights, production rights, shadow-mode rights, sublicensing rights, resale rights, or automatic-control authority are granted by this document.
 

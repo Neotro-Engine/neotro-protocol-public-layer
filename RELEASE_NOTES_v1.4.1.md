@@ -8,8 +8,8 @@ This v1.4.1 public-layer update adds two public-reference retrospective observer
 
 ## Added Files
 
-- `public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf`
-- `public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf`
+- `public-poc/Neotro_Protocol_Battery_Batch1_Public_Summary_Final.pdf`
+- `public-poc/Neotro_Protocol_Telco_5_Day_30_Sample_Public_Summary_Final.pdf`
 
 ## Updated Files
 
@@ -22,7 +22,7 @@ This v1.4.1 public-layer update adds two public-reference retrospective observer
 - `neotro-protocol-metadata.json`
   - Already aligned with `v1.4.1`.
   - Includes machine-readable `public_poc_summaries` entries for Battery and Telco.
-  - These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
+  - These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational-use validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
 
 - `CITATION.cff`
   - Updated package version metadata to `v1.4.1`.
@@ -30,4 +30,4 @@ This v1.4.1 public-layer update adds two public-reference retrospective observer
 
 ## Boundary
 
-These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational threshold validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.
+These public materials are for reference only and do not grant evaluation, implementation, domain calibration, shadow-mode, real-time observation, certified diagnosis, operational-use validation, commercial deployment, sublicensing, resale, certified performance, or automated control rights.

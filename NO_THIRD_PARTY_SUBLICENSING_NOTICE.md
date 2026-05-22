@@ -32,7 +32,7 @@ The following may not be shared with third parties without separate written auth
 - usage log schemas beyond authorized scope  
 - License Telemetry schema beyond authorized scope  
 - Neotro Certified materials  
-- beta / theta / G calibration policy
+- non-public calibration-parameter policy
 
 ## 4. No Resale
 
@@ -110,19 +110,19 @@ phi_V_d
 phi_D_d
 phi_E_d
 Cal_d
-G_d
-beta_d
-theta_1_d
-theta_2_d
+domain_gain_set
+domain_reference_value
+domain_review_boundary_1
+domain_review_boundary_2
 H_d, where applicable
 ```
 
 Public-reference parameters do not replace domain-calibrated parameters.
 
 ```text
-beta_0_event != beta_d
+public_reference_value_0 != domain_reference_value
 
-theta_0_event != theta_1_d, theta_2_d
+public_reference_boundary_0 != domain_review_boundary_1, domain_review_boundary_2
 
 Public-reference validation != Domain calibration
 
@@ -134,9 +134,7 @@ Domain calibration != Certified commercial deployment
 Domain-calibrated parameters must be derived only through authorized partner-side calibration:
 
 ```text
-(beta_d, theta_1_d, theta_2_d, G_d)
-=
-Cal_d(D_partner_d, C_operation_d, L_license_d)
+non_public_domain_calibration_set = authorized_calibration_process(...)
 ```
 
 Where:
@@ -151,11 +149,11 @@ These parameters are not missing public constants.
 
 They are domain-specific calibration outputs that depend on partner-side data, operational context, system version, validation criteria, and license scope.
 
-## 4. G_d Non-Control Integration Boundary
+## 4. domain_gain_set Non-Control Integration Boundary
 
-G_d must preserve the read-only observer-layer position of Neotro.
+domain_gain_set must preserve the read-only observer-layer position of Neotro.
 
-Unless a separate written authorization and certified integration agreement is executed, G_d must be limited to non-control integration forms such as:
+Unless a separate written authorization and certified integration agreement is executed, domain_gain_set must be limited to non-control integration forms such as:
 
 - parallel display,
 - report annotation,
@@ -166,7 +164,7 @@ Unless a separate written authorization and certified integration agreement is e
 - audit trail reference,
 - license-boundary notice.
 
-G_d must not directly trigger:
+domain_gain_set must not directly trigger:
 
 - automatic shutdown,
 - routing change,

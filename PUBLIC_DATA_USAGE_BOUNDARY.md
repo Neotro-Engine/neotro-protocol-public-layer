@@ -2,17 +2,17 @@
 
 This package uses public evidence anchors only.
 
-Battery evidence anchors are based on EVBattery public dataset / public paper context and should be externally cited with appropriate attribution and applicable public dataset license information.
+Battery evidence anchors are based on the MIT-Stanford-Toyota TRI Battery Cycle Life Dataset / Batch 1 public lifecycle channel data and should be externally cited with appropriate attribution and applicable public dataset license information.
 
-Telco evidence anchors are based on MAWI samplepoint-G public trace information and must be treated as research/public trace anchors only. They must not be presented as commercial validation data, customer network data, certified Telco performance evidence, SLA thresholds, routing policies, or operational control rules.
+Telco evidence anchors are based on MAWI / WIDE Project Samplepoint-F public traffic trace derivative sample information and must be treated as research/public trace anchors only. They must not be presented as commercial validation data, customer network data, certified Telco performance evidence, SLA validation boundaries, routing policies, or operational control rules.
 
-No private customer data, proprietary operating logs, personally identifiable information, real enterprise telemetry, raw customer traffic payloads, beta / theta / G values, certified thresholds, domain calibration parameters, or automatic control rules are included.
+No private customer data, proprietary operating logs, personally identifiable information, real enterprise telemetry, raw customer traffic payloads, partner-calibrated materials, deployment-specific implementation materials, production-use materials, or automatic control rules are included.
 
-## Public Reference beta_0_event / theta_0_event Boundary
+## Public Reference public_reference_value_0 / public_reference_boundary_0 Boundary
 
-beta_0_event and theta_0_event are public reference parameters derived from public evidence data.
+public_reference_value_0 and public_reference_boundary_0 are public reference parameters derived from public evidence data.
 
-They are not Neotro core beta/theta, not certified calibration values, not operational thresholds, and not commercial deployment parameters.
+They are not non-public Neotro calibration parameters, not certified calibration values, not operational-use validation boundaries, and not commercial deployment parameters.
 
 Certified or commercial use requires partner-side real-world data calibration through the official Neotro channel.
 
@@ -21,21 +21,21 @@ Certified or commercial use requires partner-side real-world data calibration th
 ```text
 NRT_0_event = w_1 * Conflict + w_2 * Drift + w_3 * Disagreement + w_4 * Rebound
 
-beta_0_event = (NRT_0_event - median(NRT_0_baseline)) / MAD(NRT_0_baseline)
+public_reference_value_0 = (NRT_0_event - median(NRT_0_baseline)) / MAD(NRT_0_baseline)
 
-theta_0_event = median(NRT_0_baseline) + lambda * MAD(NRT_0_baseline)
+public_reference_boundary_0 = median(NRT_0_baseline) + lambda * MAD(NRT_0_baseline)
 ```
 
-`w_1~w_4` and `lambda` in this public reference layer are demonstration/reference parameters only. They are not Neotro core beta/theta, not certified calibration values, and not operational thresholds.
+`w_1~w_4` and `lambda` in this public reference layer are demonstration/reference parameters only. They are not non-public Neotro calibration parameters, not certified calibration values, and not operational-use validation boundaries.
 
 
 ## Boundary Summary
 
-- Public beta_0_event / theta_0_event values may be used only as public reference parameters.  
+- Public public_reference_value_0 / public_reference_boundary_0 values may be used only as public reference parameters.  
 - They may be derived from the same public evidence dataset or public event window.  
-- They are not Neotro core beta/theta.  
+- They are not non-public Neotro calibration parameters.  
 - They are not certified calibration values.  
-- They are not operational thresholds.  
+- They are not operational-use validation boundaries.  
 - They are not commercial deployment parameters.  
 - Certified or commercial use requires partner-side real-world data calibration through the official Neotro channel.  
 
@@ -47,18 +47,16 @@ Neotro Protocol is not a control system.
 
 Neotro Protocol provides read-only state-transition reference signals for human review.
 
-Neotro outputs must not be used as direct automatic control commands, operational thresholds, physical control triggers, clinical decisions, routing decisions, charge/discharge decisions, driving-control decisions, financial decisions, or QPU-control decisions.
+Neotro outputs must not be used as direct automatic control commands, operational-use validation boundaries, physical control triggers, clinical decisions, routing decisions, charge/discharge decisions, driving-control decisions, financial decisions, or QPU-control decisions.
 
-beta_0_event and theta_0_event are public reference parameters only.
+public_reference_value_0 and public_reference_boundary_0 are public reference parameters only.
 
-They are not Neotro core beta/theta, not domain-calibrated beta_d/theta_d, not certified calibration values, not operational thresholds, and not commercial deployment parameters.
+They are not non-public calibration parameters, not domain-calibrated parameters, not certified calibration values, not operational-use validation boundaries, and not commercial deployment parameters.
 
 Domain-calibrated parameters must be derived only through authorized partner-side calibration:
 
 ```text
-(beta_d, theta_1_d, theta_2_d, G_d)
-=
-Cal_d(D_partner_d, C_operation_d, L_license_d)
+non_public_domain_calibration_set = authorized_calibration_process(...)
 ```
 
 Where:
@@ -142,19 +140,19 @@ phi_V_d
 phi_D_d
 phi_E_d
 Cal_d
-G_d
-beta_d
-theta_1_d
-theta_2_d
+domain_gain_set
+domain_reference_value
+domain_review_boundary_1
+domain_review_boundary_2
 H_d, where applicable
 ```
 
 Public-reference parameters do not replace domain-calibrated parameters.
 
 ```text
-beta_0_event != beta_d
+public_reference_value_0 != domain_reference_value
 
-theta_0_event != theta_1_d, theta_2_d
+public_reference_boundary_0 != domain_review_boundary_1, domain_review_boundary_2
 
 Public-reference validation != Domain calibration
 
@@ -166,9 +164,7 @@ Domain calibration != Certified commercial deployment
 Domain-calibrated parameters must be derived only through authorized partner-side calibration:
 
 ```text
-(beta_d, theta_1_d, theta_2_d, G_d)
-=
-Cal_d(D_partner_d, C_operation_d, L_license_d)
+non_public_domain_calibration_set = authorized_calibration_process(...)
 ```
 
 Where:
@@ -183,11 +179,11 @@ These parameters are not missing public constants.
 
 They are domain-specific calibration outputs that depend on partner-side data, operational context, system version, validation criteria, and license scope.
 
-## 4. G_d Non-Control Integration Boundary
+## 4. domain_gain_set Non-Control Integration Boundary
 
-G_d must preserve the read-only observer-layer position of Neotro.
+domain_gain_set must preserve the read-only observer-layer position of Neotro.
 
-Unless a separate written authorization and certified integration agreement is executed, G_d must be limited to non-control integration forms such as:
+Unless a separate written authorization and certified integration agreement is executed, domain_gain_set must be limited to non-control integration forms such as:
 
 - parallel display,
 - report annotation,
@@ -198,7 +194,7 @@ Unless a separate written authorization and certified integration agreement is e
 - audit trail reference,
 - license-boundary notice.
 
-G_d must not directly trigger:
+domain_gain_set must not directly trigger:
 
 - automatic shutdown,
 - routing change,

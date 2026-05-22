@@ -38,7 +38,7 @@
   "sample_packages": [
     {
       "domain": "battery",
-      "file": "public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf",
+      "file": "public-poc/Neotro_Protocol_Battery_Batch1_Public_Summary_Final.pdf",
       "title": "Neotro Protocol Battery Batch1 Public Summary",
       "type": "public retrospective observer-layer PoC summary",
       "data_scope": "Battery - Cell Aging/Cycling Validation Line - Batch 1 public retrospective observer-layer PoC",
@@ -46,7 +46,7 @@
       "control_authority": false,
       "implementation_rights": false,
       "domain_calibration_included": false,
-      "operational_thresholds_included": false,
+      "operational_use_validation_boundaries_included": false,
       "certified_performance_claim": false,
       "commercial_deployment_right": false,
       "shadow_mode_right": false,
@@ -54,15 +54,15 @@
     },
     {
       "domain": "telco",
-      "file": "public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf",
-      "title": "Neotro Protocol Telco 5 Day 30 Samples Public Summary",
+      "file": "public-poc/Neotro_Protocol_Telco_5_Day_30_Sample_Public_Summary_Final.pdf",
+      "title": "Neotro Protocol Telco 5 Day 30 Sample Public Summary",
       "type": "public retrospective observer-layer PoC summary",
       "data_scope": "Telco / Network Traffic - Backbone Traffic Observation Window - MAWI Samplepoint-F public retrospective observer-layer PoC",
       "reproducible": false,
       "control_authority": false,
       "implementation_rights": false,
       "domain_calibration_included": false,
-      "operational_thresholds_included": false,
+      "operational_use_validation_boundaries_included": false,
       "certified_performance_claim": false,
       "commercial_deployment_right": false,
       "shadow_mode_right": false,
@@ -75,7 +75,7 @@
     "output_type": "read-only state-transition reference signal for human review",
     "prohibited_direct_uses": [
       "automatic control command",
-      "operational threshold",
+      "operational-use validation boundary",
       "physical control trigger",
       "clinical decision",
       "routing decision",
@@ -87,15 +87,15 @@
     "reference_signals_must_not_be_sole_decision_basis": true
   },
   "public_reference_parameter_boundary": {
-    "beta_0_event_theta_0_event": "public reference parameters only",
-    "not_neotro_core_beta_theta": true,
-    "not_domain_calibrated_beta_theta": true,
+    "calibration_value_0_event_review_boundary_0_event": "public reference parameters only",
+    "not_non_public_neotro_calibration_parameters": true,
+    "not_domain_calibrated_parameters": true,
     "not_certified_calibration_values": true,
-    "not_operational_thresholds": true,
+    "not_operational_use_validation_boundaries": true,
     "not_commercial_deployment_parameters": true
   },
   "domain_calibration_boundary": {
-    "formula": "(beta_d, theta_1_d, theta_2_d, G_d) = Cal_d(D_partner_d, C_operation_d, L_license_d)",
+    "formula": "non_public_domain_calibration_set = authorized_calibration_process(...)",
     "dataset": "D_partner_d: partner-side real-world domain dataset",
     "operation_context": "C_operation_d: operational context and system version",
     "license_scope": "L_license_d: authorized license scope",
@@ -180,10 +180,10 @@
       "phi_D_d",
       "phi_E_d",
       "Cal_d",
-      "G_d",
-      "beta_d",
-      "theta_1_d",
-      "theta_2_d",
+      "domain_gain_set",
+      "domain_reference_value",
+      "domain_review_boundary_1",
+      "domain_review_boundary_2",
       "H_d_where_applicable"
     ],
     "preferred_early_entry_domains": [
@@ -221,7 +221,7 @@
   "public_poc_summaries": [
     {
       "domain": "battery",
-      "file": "public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf",
+      "file": "public-poc/Neotro_Protocol_Battery_Batch1_Public_Summary_Final.pdf",
       "title": "Neotro Protocol Battery Batch1 Public Summary",
       "type": "public retrospective observer-layer PoC summary",
       "data_scope": "Battery - Cell Aging/Cycling Validation Line - Batch 1 public retrospective observer-layer PoC",
@@ -229,7 +229,7 @@
       "control_authority": false,
       "implementation_rights": false,
       "domain_calibration_included": false,
-      "operational_thresholds_included": false,
+      "operational_use_validation_boundaries_included": false,
       "certified_performance_claim": false,
       "commercial_deployment_right": false,
       "shadow_mode_right": false,
@@ -237,15 +237,15 @@
     },
     {
       "domain": "telco",
-      "file": "public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf",
-      "title": "Neotro Protocol Telco 5 Day 30 Samples Public Summary",
+      "file": "public-poc/Neotro_Protocol_Telco_5_Day_30_Sample_Public_Summary_Final.pdf",
+      "title": "Neotro Protocol Telco 5 Day 30 Sample Public Summary",
       "type": "public retrospective observer-layer PoC summary",
       "data_scope": "Telco / Network Traffic - Backbone Traffic Observation Window - MAWI Samplepoint-F public retrospective observer-layer PoC",
       "reproducible": false,
       "control_authority": false,
       "implementation_rights": false,
       "domain_calibration_included": false,
-      "operational_thresholds_included": false,
+      "operational_use_validation_boundaries_included": false,
       "certified_performance_claim": false,
       "commercial_deployment_right": false,
       "shadow_mode_right": false,
@@ -257,8 +257,8 @@
     "date": "2026-05-06",
     "summary": "Adds two public-reference retrospective observer-layer PoC summary PDFs for Battery and Telco domains, which are not independently reproducible from this public package alone, and updates AI/LLM reading guidance.",
     "added_files": [
-      "public-poc/Neotro Protocol Battery Batch1 Public Summary.pdf",
-      "public-poc/Neotro Protocol Telco 5 Day 30 Samples Public Summary.pdf"
+      "public-poc/Neotro_Protocol_Battery_Batch1_Public_Summary_Final.pdf",
+      "public-poc/Neotro_Protocol_Telco_5_Day_30_Sample_Public_Summary_Final.pdf"
     ],
     "no_auto_control_boundary_preserved": true,
     "commercial_rights_granted": false,
