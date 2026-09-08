@@ -1,5 +1,8 @@
 # Neotro Protocol v1.4.1 Public Layer: AI-Readable Observer Protocol Reference Package
 
+**Current canonical research map:** [Neotro Protocol Public Research](https://github.com/Neotro-Engine/Neotro-Protocol-Public-Research)  
+This repository is preserved as part of the Neotro Protocol public research lineage.
+
 Neotro Protocol is a non-invasive observer-layer protocol that adds calibrated state-transition observation lines and review-zone candidate bands to existing monitoring environments.
 
 Neotro does not replace existing systems, issue automated control commands, or provide certified diagnosis. It provides human-review reference signals for state-transition review.
